@@ -1,0 +1,210 @@
+body {
+    background: #b9e6a8;
+    font-family: "Montserrat";
+}
+
+time,
+#bola {
+    margin: 15px;
+}
+
+#buscar {
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#bola {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-family: "Lakki Reddy";
+    color: purple;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    margin: 0;
+    top: 20px;
+}
+
+#bola {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+time {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+nav {
+
+    background: purple;
+}
+
+nav li,
+#busqueda {
+    display: inline-block;
+    border: solid white 2px;
+    color: white;
+    padding: 20px;
+}
+
+nav li {
+    font-size: 20px;
+}
+
+ul {
+    padding: 10px;
+}
+
+li:hover,
+#inicio {
+    background: white;
+    color: purple;
+}
+
+li:active {
+    background: grey;
+    border: solid grey 1px;
+}
+
+#nocturno {
+    text-align: center;
+    width: 50px;
+    font-size: 15px;
+    float: right;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+#nocturno:hover {
+    background-color: purple;
+    color: white;
+    height: 20px;
+}
+
+#nocturno input {
+    width: 20px;
+}
+
+li {
+    width: 150px;
+    text-align: center;
+}
+
+#colores {
+    float: right;
+}
+
+form input,
+label,
+a {
+    display: block;
+}
+
+h3,
+section img {
+    display: inline;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+section input {
+    border: solid white 3px;
+    background: white;
+}
+
+section {
+    font-size: 30px;
+}
+
+section a {
+    font-size: 18px;
+}
+
+section * {
+    margin: 15px;
+}
+
+address {
+    display: inline-block;
+}
+
+#busqueda {
+    border: 0px;
+    float: right;
+    padding: 0px;
+    height: 81px;
+    display: flex;
+    align-items: center;
+}
+
+#busqueda * {
+    height: fit-content;
+}
+
+nav {
+    margin-top: 60px;
+}
+
+form {
+    width: 400px;
+    position: relative;
+}
+
+#lupa {
+    margin-right: 10px;
+}
+
+#colores {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    width: 500px;
+
+}
+
+main {
+    border: solid purple 2px;
+}
+
+footer {
+    background-color: white;
+    margin: 0;
+}
+
+header,
+main {
+    margin: 10px;
+}
+
+a {
+    display: inline-block;
+}
+
+#usuarios {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -20px;
+}
+
+footer {
+    border-top: solid purple 3px;
+    padding: 10px;
+}
+
+time {
+    color: purple;
+    font-family: 'Lilita One', cursive;
+}
