@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Academia Victohicas</title>
+    <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <script src="./js/codigo.js"></script>
+    <!--Cabecera-->
+    <header>
+        <img id="bola" src="./img/bola.png" alt="" />
+        <h1>Victohicas Academy&#33;</h1>
+        <time datetime=""></time>
+    </header>
+    <!--Menú-->
+    <nav>
+        <ul id="menu">
+            <a href="./index.html">
+                <li id="inicio">
+                    Inicio
+                </li>
+            </a>
+            <li>
+                Administrador
+            </li>
+            <a href="./alumno.html">
+                <li id="administrador">
+                    Alumno
+                </li>
+            </a>
+            <a href="./profesor.html">
+                <li id="actual">
+                    Profesor
+                </li>
+            </a>
+                <div id="nocturno">
+                    <label>Modo nocturno</label>
+                    <input type="range" id="modo" value=0 onclick="cambiarModo()" min=0 max=1>
+                </div>
+            <div id="busqueda">
+                <img id="lupa" src="./img/lupa.png" alt="lupa" />
+                <input type="text" name="buscar" id="buscar" placeholder="Search">
+            </div>
+        </ul>
+    </nav>
+    <!--Cuerpo-->
+    <main>
+        <section id="section1">
+            <ul id="opciones">
+                <li id="grande">
+                    <span>Idiomas que imparte</span>
+                    <img src="./img/cursos.png" alt=""/>
+                </li>
+                <li>
+                    <span>Guía docente</span>
+                    <img src="./img/guiaDocente.png" alt=""/>
+                </li>
+                <li>
+                    <span>Alumnos</span>
+                    <img src="./img/alumnos.png" alt=""/>
+                </li>
+                <li>
+                    <span>Horarios</span>
+                    <img src="./img/horarios.png" alt=""/>
+                </li>
+            </ul>
+        </section>
+        <section id="anuncios">
+            <img alt="" src="./img/alemania.png"/>
+            <div><span>UNA EXPERIENCIA ÚNICA:
+                &#161;Viaja a alemania como profesor&#33;</span></div>
+            <img alt="" src="./img/alemania2.png"/>
+        </section>
+    </main>
+    <hr />
+    <!--Pie de página-->
+    <footer id="pie">
+        <address>
+            <a href="">Tel. 947 77 77 77</a>
+            >
+            <a href="">victohicas@gmail.com</a>
+            >
+            <a href="">C/ Armando Casas</a>
+            >
+            <a href="">9ºB</a>
+            > 28071 Madrid - España
+        </address>
+    </footer>
+</body>
+
+</html>

@@ -27,6 +27,7 @@ h1 {
     font-size: 50px;
     margin: 0;
     top: 20px;
+    text-shadow: 10px 5px 5px grey;
 }
 
 #bola {
@@ -62,13 +63,13 @@ ul {
     padding: 10px;
 }
 
-li:hover,
-#inicio {
+#menu li:hover,
+#actual {
     background: white;
     color: purple;
 }
 
-li:active {
+#menu li:active {
     background: grey;
     border: solid grey 1px;
 }
@@ -95,19 +96,28 @@ li:active {
     width: 20px;
 }
 
-li {
+#menu li {
     width: 150px;
     text-align: center;
 }
 
+#menu li:hover {
+    cursor: pointer;
+}
+
 #colores {
     float: right;
+    border-radius: 50px;
 }
 
 form input,
 label,
 a {
     display: block;
+}
+
+form input{
+    border-radius:20px;
 }
 
 h3,
@@ -164,6 +174,7 @@ form {
 
 #lupa {
     margin-right: 10px;
+    cursor: pointer;
 }
 
 #colores {
@@ -181,6 +192,7 @@ main {
 footer {
     background-color: white;
     margin: 0;
+    font-size: 12px;
 }
 
 header,
@@ -207,4 +219,73 @@ footer {
 time {
     color: purple;
     font-family: 'Lilita One', cursive;
+}
+
+#anuncios * {
+    display: inline;
+}
+
+#anuncios *{
+    height: 170px;
+}
+#anuncios:hover{
+    cursor:pointer;
+}
+
+#opciones li{
+    display: inline;
+    padding: 10px;
+}
+
+#opciones,
+#anuncios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#opciones img {
+    width: 200px;
+    height:200px;
+    border-radius: 20px;
+    margin-top:70px;
+}
+
+#opciones img:hover {
+    width: 220px;
+    height:220px;
+    cursor:pointer;
+}
+
+div span{
+    text-align: center;
+    font-size:20px;
+}
+
+li span{
+    padding:10px;
+    font-size:20px;
+}
+
+#opciones li:not(#grande){
+    padding:20px;
+}
+
+#ojo{
+    width:25px;
+    height:25px;
+}
+
+#ojo:hover{
+    cursor:pointer;
+}
+
+#password{
+    position:relative;
+}
+
+#ojo{
+    position:absolute;
+    left:147px;
+    top:191px;
 }
